@@ -12,3 +12,50 @@ img,
 video {
   display: block;
 }
+
+.heart {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+// Font Awesome marche mais n'affiche pas le coeur
+
+.button {
+  width: fit-content;
+  display: flex;
+  padding: 10px 20px;
+  gap: 10px;
+  margin: 50px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+  align-items: center;
+}
+
+.name {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.number {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.background-is-active {
+  background: #f00;
+}
+
+.name-is-active,
+.number-is-active,
+.heart-is-active {
+  color: white;
+}
